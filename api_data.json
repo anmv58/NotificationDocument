@@ -782,7 +782,14 @@
             "description": "<p>Nội dung thông báo (hiển thị ở notification điện thoại)</p>"
           }
         ]
-      }
+      },
+      "examples": [
+        {
+          "title": "Notification-Example:",
+          "content": "{\n        \"action\": \"OPEN_SCREEN\",\n        \"data\": {\n            \"ShowTripFare\": true,\n            \"driverId\": 607759,\n            \"message\": \"TripEnd\",\n            \"driverName\": \"Công Phương Đông \",\n            \"driverPhone\": \"0977212594\",\n            \"rideNo\": \"87593949\",\n            \"tripId\": 5309,\n            \"tripCode\": \"GNT43W74\",\n            \"rating\": 3.5,\n            \"type\": \"Deliver\"\n        },\n        \"type\": \"0\",\n        \"notification\": {\n            \"title\": \"Giao hàng GNT43W74: Hoàn tất giao hàng\",\n            \"content\": \"Đơn hàng GNT43W74 đã hoàn tất giao hàng.\"\n        }\n    }",
+          "type": "json"
+        }
+      ]
     },
     "filename": "api/index.js",
     "groupTitle": "Android"
